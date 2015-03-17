@@ -1,0 +1,6 @@
+dist/*
+tmp/*
+bower_components/*
+src/vendor/*
+node_modules/*
+*.lnk

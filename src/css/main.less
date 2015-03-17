@@ -1,0 +1,65 @@
+@import 'http://js.arcgis.com/3.11/dijit/themes/nihilo/nihilo.css';
+@import 'http://js.arcgis.com/3.11/esri/css/esri.css';
+@import '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css';
+@import '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css';
+
+@round-btn-border-color: #cfdcec;
+@round-btn-circle-bg: #4679BD;
+@round-btn-circle-hover: #30588e;
+@round-btn-a-color: #e2eaf3;
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#main { height: 100%; width: 100%; }
+.map-canvas { height: 100%; width: 100%; }
+.container { padding: 0 !important; }
+.map img {
+  max-width: none;
+}
+
+.sgt-tool-container {
+  padding: 6px;
+  margin: auto;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  a {
+    color: #4C4C4C;
+  }
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.esriPopup .titlePane {
+  background-color: #2CA1E2;
+  .titleButton.close {
+    filter: alpha(opacity=100) !important;
+    opacity: 1 !important;
+  }
+}
+
+.esriPopup .pointer.top {
+  background: #2CA1E2;
+}
+
+.sgt-btn-menu {
+  font-size: 18px;
+  color: #4C4C4C;
+  background-color: #fff;
+  padding: 0.5em;
+  margin-right: 2px;
+  border: 1px solid #57585A;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #eee;
+    text-decoration: none;
+  }
+}
+
+.esriSimpleSlider > a {
+  line-height: 18px;
+}

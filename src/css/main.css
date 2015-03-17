@@ -1,0 +1,13 @@
+@import 'http://js.arcgis.com/3.13/dijit/themes/nihilo/nihilo.css';
+@import 'http://js.arcgis.com/3.13/esri/css/esri.css';
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map { height: 100%; width: 100%; }
+#search {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 25px;
+  right: 25px;
+}
